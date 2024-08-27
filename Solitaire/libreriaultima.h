@@ -23,7 +23,7 @@ bool esVacia(Tlista &lista) {
     return log;
 } 
 
-/*void insertarInicio(Tlista &lista, Tlista &aux)
+void insertarInicio(Tlista &lista, Tlista &aux)
 {
         Tlista q;
         q = new(struct nodo);
@@ -32,7 +32,7 @@ bool esVacia(Tlista &lista) {
         q->prox = lista;
         lista  = q;
 }
-*/ 
+
 
 void insertarFinal(Tlista &lista, Tlista &aux) {
     Tlista t, q = new(struct nodo);
